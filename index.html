@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioAir Purification | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">BioAir Purification</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#mechanism">Mechanism</a></li>
+                <li><a href="#configuration">Configuration</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Fighting Air Pollution with Nature's Solution</h1>
+                <p>An innovative approach to purify air using sulfur-oxidizing bacteria</p>
+                <a href="#mechanism" class="cta-button">Learn How It Works</a>
+            </div>
+            <div class="hero-animation">
+                <div class="air-bubble"></div>
+                <div class="air-bubble"></div>
+                <div class="air-bubble"></div>
+                <div class="bacteria"></div>
+            </div>
+        </section>
+
+        <section class="sdg-section">
+            <h2>Supporting SDG-13: Climate Action</h2>
+            <div class="sdg-content">
+                <p>Our project directly addresses Sustainable Development Goal 13 by combating air pollution, a major contributor to climate change. Hydrogen sulfide (H₂S) is a potent greenhouse gas and air pollutant that affects both climate and public health.</p>
+                
+                <p>Using specially cultivated Sulfur-Oxidizing Bacteria (SOB) from sewage water, we've developed a cost-effective biofilter that reduces H₂S concentrations by up to 68.2%. This natural solution helps mitigate climate impact while repurposing waste materials, creating a sustainable cycle of environmental protection.</p>
+                
+                <p>By implementing this technology, we can help industries and communities reduce their emissions footprint while improving local air quality - a crucial step in climate action.</p>
+            </div>
+        </section>
+
+        <section class="results">
+            <h2>Our Achievements</h2>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value">68.2%</div>
+                    <div class="stat-label">H₂S Reduction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">10 min</div>
+                    <div class="stat-label">Treatment Time</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">165 L.E</div>
+                    <div class="stat-label">Low Cost</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mechanism Section -->
+        <section id="mechanism" class="mechanism-intro">
+            <h1>How Our Biofilter Works</h1>
+            <p>Our system uses nature's own solution to combat air pollution - specialized bacteria that consume harmful hydrogen sulfide (H₂S).</p>
+        </section>
+
+        <section class="process-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Bacteria Cultivation</h3>
+                    <p>We extract Sulfur-Oxidizing Bacteria (SOB), specifically Acidithiobacillus thiooxidans, from sewage water. These bacteria are then cultivated in purified lemon soil enriched with nutrients for 6 hours.</p>
+                    <div class="bacteria-animation"></div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Air Treatment Process</h3>
+                    <p>Polluted air containing H₂S is circulated through our biofilter containing the SOB. The bacteria oxidize H₂S into harmless sulfur and water molecules through the reaction: H₂S + 2O₂ → H₂O + S</p>
+                    <div class="reaction-animation">
+                        <span class="molecule">H₂S</span> + 
+                        <span class="molecule">O₂</span> → 
+                        <span class="molecule">H₂O</span> + 
+                        <span class="molecule">S</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Purified Air Output</h3>
+                    <p>The treated air exits the system with up to 68.2% reduction in H₂S concentration, as measured by our MQ-135 sensors. The entire process takes approximately 10 minutes per cycle.</p>
+                    <div class="airflow-animation">
+                        <div class="dirty-air">Dirty Air</div>
+                        <div class="arrow">→</div>
+                        <div class="filter">Biofilter</div>
+                        <div class="arrow">→</div>
+                        <div class="clean-air">Clean Air</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="implementation">
+            <h2>Implementation Guide</h2>
+            <div class="implementation-grid">
+                <div class="implementation-item">
+                    <h3>For Factories</h3>
+                    <p>Install large-scale biofilters at emission points to treat exhaust gases before release.</p>
+                </div>
+                <div class="implementation-item">
+                    <h3>For Communities</h3>
+                    <p>Community-sized units can be placed near waste processing facilities or polluted areas.</p>
+                </div>
+                <div class="implementation-item">
+                    <h3>Maintenance</h3>
+                    <p>Regularly monitor bacterial health and replenish nutrients every 2-3 months.</p>
+                </div>
+                <div class="implementation-item">
+                    <h3>Scaling</h3>
+                    <p>System can be scaled by adding more filtration modules in series for higher efficiency.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Configuration Section -->
+        <section id="configuration" class="config-intro">
+            <h1>System Configuration</h1>
+            <p>Use this tool to estimate the treatment efficiency and time required for your specific H₂S concentration levels.</p>
+        </section>
+
+        <section class="config-form">
+            <div class="form-container">
+                <div class="input-group">
+                    <label for="initial-concentration">Initial H₂S Concentration (ppm):</label>
+                    <input type="number" id="initial-concentration" min="0" step="1" placeholder="e.g., 450">
+                </div>
+
+                <button id="calculate-btn" class="cta-button">Calculate Treatment Parameters</button>
+
+                <div id="results" class="hidden">
+                    <div class="result-item">
+                        <span class="result-label">Estimated Treatment Time:</span>
+                        <span id="treatment-time" class="result-value">--</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Expected Efficiency:</span>
+                        <span id="efficiency" class="result-value">--</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Start Measuring After:</span>
+                        <span id="measure-time" class="result-value">--</span>
+                    </div>
+
+                    <div class="final-measurement hidden" id="final-measurement">
+                        <div class="input-group">
+                            <label for="final-concentration">Final H₂S Concentration (ppm):</label>
+                            <input type="number" id="final-concentration" min="0" step="1">
+                        </div>
+                        <button id="check-btn" class="cta-button">Check Results</button>
+                    </div>
+                </div>
+
+                <div id="success-message" class="message hidden success">
+                    <h3>Congratulations!</h3>
+                    <p>Your air treatment was successful with an efficiency of <span id="actual-efficiency">--</span>%.</p>
+                    <p>This meets our target of 20% minimum reduction.</p>
+                </div>
+
+                <div id="fail-message" class="message hidden fail">
+                    <h3>Treatment Incomplete</h3>
+                    <p>Your achieved efficiency was <span id="failed-efficiency">--</span>%.</p>
+                    <p>Please check your system and try again. Consider:</p>
+                    <ul>
+                        <li>Extending treatment time</li>
+                        <li>Checking bacterial health</li>
+                        <li>Ensuring proper airflow</li>
+                    </ul>
+                    <button id="try-again-btn" class="cta-button">Try Again</button>
+                </div>
+            </div>
+
+            <div class="formula-info">
+                <h3>Calculation Method</h3>
+                <p>Our calculations are based on experimental data showing:</p>
+                <p class="formula">Efficiency = (Initial ppm - Final ppm) / Initial ppm × 100%</p>
+                <p>Average efficiency across trials: 68.2% ±2.2%</p>
+                <p>Treatment time is estimated at 10 minutes per 1000mL volume</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-intro">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you! Contact our team for more information about our biofilter technology or potential collaborations.</p>
+        </section>
+
+        <section class="contact-methods">
+            <div class="contact-card">
+                <div class="contact-icon">✉️</div>
+                <h3>Email Us</h3>
+                <div class="contact-details">
+                    <p><strong>Jana Alaa:</strong> <a href="mailto:Jana.1723527@stemismailia.moe.edu.eg">Jana.1723527@stemismailia.moe.edu.eg</a></p>
+                    <p><strong>Mariam Abdelmonem:</strong> <a href="mailto:Mariam.1723541@stemismailia.moe.edu.eg">Mariam.1723541@stemismailia.moe.edu.eg</a></p>
+                    <p><strong>Hoda Mostafa:</strong> <a href="mailto:Hoda.1723525@stemismailia.moe.edu.eg">Hoda.1723525@stemismailia.moe.edu.eg</a></p>
+                    <p><strong>Hana Ahmed:</strong> <a href="mailto:Hana.1723518@stemismailia.moe.edu.eg">Hana.1723518@stemismailia.moe.edu.eg</a></p>
+                    <p><strong>A'laa TAmer:</strong> <a href="mailto:Alaa.1723504@stemismailia.moe.edu.eg">Alaa.1723504@stemismailia.moe.edu.eg</a></p>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">🏫</div>
+                <h3>Our Institution</h3>
+                <div class="contact-details">
+                    <p>Ismailia STEM High School</p>
+                    <p>IEEE EUI</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="message-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 BioAir Purification Project. Ismailia STEM High School.</p>
+    </footer>
+
+    <script>
+        // Configuration Calculator Script
+        document.getElementById('calculate-btn').addEventListener('click', function() {
+            const initialPpm = parseFloat(document.getElementById('initial-concentration').value);
+            
+            if (initialPpm && initialPpm > 0) {
+                document.getElementById('results').classList.remove('hidden');
+                
+                const efficiency = 68.2;
+                const treatmentTime = 10;
+                
+                document.getElementById('treatment-time').textContent = treatmentTime + ' minutes';
+                document.getElementById('efficiency').textContent = efficiency.toFixed(1) + '%';
+                document.getElementById('measure-time').textContent = treatmentTime + ' minutes after start';
+                
+                document.getElementById('final-measurement').classList.remove('hidden');
+                
+                document.getElementById('success-message').classList.add('hidden');
+                document.getElementById('fail-message').classList.add('hidden');
+            } else {
+                alert('Please enter a valid initial concentration value');
+            }
+        });
+        
+        document.getElementById('check-btn').addEventListener('click', function() {
+            const initialPpm = parseFloat(document.getElementById('initial-concentration').value);
+            const finalPpm = parseFloat(document.getElementById('final-concentration').value);
+            
+            if (finalPpm && finalPpm >= 0 && finalPpm < initialPpm) {
+                const efficiency = ((initialPpm - finalPpm) / initialPpm) * 100;
+                
+                if (efficiency >= 20) {
+                    document.getElementById('actual-efficiency').textContent = efficiency.toFixed(1);
+                    document.getElementById('success-message').classList.remove('hidden');
+                    document.getElementById('fail-message').classList.add('hidden');
+                } else {
+                    document.getElementById('failed-efficiency').textContent = efficiency.toFixed(1);
+                    document.getElementById('fail-message').classList.remove('hidden');
+                    document.getElementById('success-message').classList.add('hidden');
+                }
+            } else {
+                alert('Please enter a valid final concentration that is less than the initial concentration');
+            }
+        });
+        
+        document.getElementById('try-again-btn').addEventListener('click', function() {
+            document.getElementById('final-concentration').value = '';
+            document.getElementById('fail-message').classList.add('hidden');
+        });
+
+        // Contact Form Script
+        document.getElementById('message-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('nav ul');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            nav.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                nav.classList.remove('active');
+            });
+        });
+
+        // Progress Bar
+        window.onscroll = function() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
+        };
+
+        // Active Navigation Link
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('nav ul li a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
